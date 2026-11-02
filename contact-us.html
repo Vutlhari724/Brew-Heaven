@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img class="logo" src="Images/A.jpg" alt="Brew Haven logo">
+            <span class="brand-name">Brew Haven</span>
+        </div>
+        <nav class="site-nav">
+            <a href="index.html">index</a>
+            <a href="about-us.html">About</a>
+            <a href="products-services.html">Products and Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="news-updates.html">News and Updates</a>
+            <a href="contact-us.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <div class="hero">
+            <img src="Images/A.jpg" alt="Brew Haven Coffee Shop">
+        </div>
+
+        <h1 class="page-title">Contact Us</h1>
+        <p class="tagline">Two locations, one great cup of coffee</p>
+
+        <section>
+            <h2>Our locations</h2>
+            <div class="location-grid">
+                <div class="card">
+                    <h3>Main shop, Coffee Lane</h3>
+                    <ul class="contact-details">
+                        <li><span>Address</span> 123 Coffee Lane, Braamfontein, Johannesburg, 2000</li>
+                        <li><span>Phone</span> 011 123 4567</li>
+                        <li><span>Email</span> <a href="mailto:hello@brewhaven.co.za">hello@brewhaven.co.za</a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Campus kiosk, University Square</h3>
+                    <ul class="contact-details">
+                        <li><span>Address</span> Shop 12, University Square, 45 Jorissen Street, Braamfontein, 2000</li>
+                        <li><span>Phone</span> 011 123 4568</li>
+                        <li><span>Email</span> <a href="mailto:campus@brewhaven.co.za">campus@brewhaven.co.za</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <table class="hours">
+                <caption>Operating hours</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Main shop</th>
+                        <th scope="col">Campus kiosk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday to Friday</th>
+                        <td>06:30 - 20:00</td>
+                        <td>07:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday</th>
+                        <td>07:00 - 21:00</td>
+                        <td>08:00 - 16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sunday</th>
+                        <td>08:00 - 18:00</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Send us a message</h2>
+            <form class="contact-form" action="#" method="post">
+                <label for="fullname">Full name</label>
+                <input id="fullname" type="text" name="fullname" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone</label>
+                <input id="phone" type="tel" name="phone" placeholder="Enter your phone">
+
+                <label for="enquiry">Enquiry type</label>
+                <select id="enquiry" name="enquiry" required>
+                    <option value="">-- Select --</option>
+                    <option value="general">General Enquiry</option>
+                    <option value="catering">Catering Request</option>
+                    <option value="event">Private Event</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <input id="subject" type="text" name="subject" placeholder="Enter subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+                <button class="btn" type="submit">Send message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; ST10513716 #Brew Haven Coffee Shop</p>
+    </footer>
+    <script src="Js/script.Js"></script>
+</body>
+</html>
